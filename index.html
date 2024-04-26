@@ -9,46 +9,83 @@
 <body>
     <div class="navbar">
         <nav>
-            <button>About</button>
-            <button>Projects</button>
-            <button>Contact</button>
+            <a href="#experience">Experience</a> 
+            <a href="#projects">Projects</a> 
+            <a href="#footer">Contact</a> 
         </nav>
     </div>
     <div class="hero">
-        <div id="portrait">Portrait Box</div>
-        <!-- <img id="portrait" src="./assets/portrait.jpg" alt="Portrait pic" style="width: 30%; height: auto;"> -->
+        <img id="portrait" src="./assets/portrait.jpg" alt="Portrait pic"/>
         <div class="info">
             <h1>Nathanel Gries</h1>
-            <p>About me</p>
+            <p>
+                I am a Junior at CSUF and an aspiring Software Engineer. I love programming and learning new things. I am proficient in C++ and Python, and I have experience coding in Typescript, Javascript, HTML, and CSS. I am exploring software engineering, data science, and cybersecurity. In my free time, I like to work out, play basketball, and watch movies.
+            </p>
             
         </div>
     </div>
-    <div class="experience">
-        <h1>Experience</h1>
-        <div>a</div>
-        <div>b</div>
-        <div>c</div>
-    </div>
-    <div class="projects">
-        <div class="project-name">
-            <button id="lcpilot">LC Pilot</button>
-            <hr/>
-            <button id="wikiguess">WikiGuess</button>
+    <div id="experience">
+        <h1 id="exp-header">Experience</h1>
+        <div class="si">
+            <div class="exp-title">
+                <h1 id="exp-name">Supplemental Instructor</h1>
+                <h2 id="exp-date">Aug-Dec 2023</h2>
+            </div>
+            <ul class="exp-description">
+                <li>Taught Calculus Workshops: Actively prepared and hosted engaging workshops on a bi-weekly basis to convey complex concepts related to Calculus effectively. As a result of these efforts, students experienced an improvement in their academic performance with an average grade increase of over 10%. 
+                </li>
+            </ul>
         </div>
-        <div class="project-bubble">
-            <p id="project_name">Project Name</p>
-            <p id="project_description">Project Description</p>
-            <div class="project-images">Images</div>
+        <div class="ds-intern">
+            <div class="exp-title">
+                <h1 id="exp-name">Data Science Research Intern</h1>
+                <h2 id="exp-date">June-Aug 2023</h2>
+            </div>
+            <ul class="exp-description">
+                <li>Evaluated Model Performance: Tested various ML predictive models using Scikit-learn, Pandas, Xgboost, and TensorFlow in which I compared their performance and accuracy using varying datasets.
+                </li>
+                <li>Designed Practical Predictive Model: Created a machine learning model using a random forest to predict course performance for university students, resulting in an accuracy of 95% and an MAE of under 3% and producing a practical and effective tool for studying and improving academic success.
+                </li>
+            </ul>
+        </div>
+        <div class="acm">
+            <div class="exp-title">
+                <h1 id="exp-name">Algorithms Board Officer</h1>
+                <h2 id="exp-date">May 2023 - Current</h2>
+            </div>
+            <ul class="exp-description">
+                <li>Led engaging weekly meetings, sharing my knowledge of Algorithm and Data Structure concepts to a diverse group of approximately 80 people.
+                </li>
+                <li>As a board member, I drove substantial club growth through guiding projects during weekly meetings, leading to a community of over 2000 members.
+                </li>
+            </ul>
+        </div>
+        <div></div>
+    </div>
+    <div id="projects">
+        <h1>Projects</h1>
+        <div class="projects-div">
+            <div class="project-name">
+                <button id="lcpilot">LC Pilot</button>
+                <hr/>
+                <button id="wikiguess">WikiGuess</button>
+            </div>
+            <div class="project-bubble">
+                <p id="project_name">LC Pilot</p>
+                <p id="project_description">
+                    Currently creating a problem-solving website using next.js and firebase to allow users to choose a challenging problem from our database, write their code in our text editor, run their code, and get tailored hints through our AI Hint Bot. This project will be a prime problem-solving platform for users to hone coding skills and practice their technical programming.
+                </p>
+                <div class="project-images">Images</div>
+            </div>
         </div>
     </div>
-    <footer>
-        <h2>Contact</h2>
+    <footer id="footer">
+        <h2 id="contact">Contact</h2>
         <div class="images">
             <img id="in" src="assets/linkedin_icon.png" alt="linkedin"/>
             <img id="github" src="assets/github.svg" alt="github"/>
             <img id="gmail" src="assets/gmail.png" alt="gmail">
         </div>
-
     </footer>
     <script src="script.js"></script>
 </body>
