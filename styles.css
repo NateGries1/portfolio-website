@@ -1,6 +1,8 @@
 a {
     text-decoration: none;
     font-size: 20px;
+    scroll-behavior: smooth;
+    padding-left: 25px;
 }
 
 
@@ -30,6 +32,13 @@ a {
 }
 .info {
     margin-right: 20%;
+}
+
+#name {
+    text-align: center;
+}
+#about {
+    text-align: justify;
 }
 
 hr {
@@ -129,7 +138,7 @@ body {
     color: white;
     height: 500px;
     display: grid;  
-    grid-template-rows: 1fr 0.5fr 0.5fr .5fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr .5fr 1fr;
     transition: grid-template-rows .5s ease-out;
 }
 
